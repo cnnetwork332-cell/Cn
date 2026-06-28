@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"**𝐌ᴀᴅᴀʀᴀ ғυᴄкɪиɢ вʀαиᴅ**\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟσᴘᴇʀ: тєʀα вααᴘ нυ вαѕѕ**"
+HELP_STRING = f"**𝐏ᴇᴀᴄᴇ **\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟσᴘᴇʀ: 𝐏ᴇᴀᴄᴇ**"
 
 HELP_BUTTON = [
     [
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© тєʀα вααᴘ нυ вαѕ **
+**© 𝐏ᴇᴀᴄᴇ **
 """
 
 spam_msg = f"""
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! тєʀα вααᴘ нυ вαѕ", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! 𝐏ᴇᴀᴄᴇ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! тєʀα вααᴘ нυ вαѕ", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! 𝐏ᴇᴀᴄᴇ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! тєʀα вααᴘ нυ вαѕ", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! 𝐏ᴇᴀᴄᴇ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! тєʀα вααᴘ нυ вαѕ", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! 𝐏ᴇᴀᴄᴇ", cache_time=0, alert=True)
